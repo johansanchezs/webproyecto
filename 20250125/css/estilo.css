@@ -1,0 +1,41 @@
+body {
+    display: grid;
+    grid-template-rows: 100px 60px 300px 100px;
+}
+header {
+    background-color: rgba(179, 0, 255, 0.291);
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+nav {
+    background-color: rgba(208, 0, 0, 0.365);
+    display:grid;
+    grid-template-columns: repeat( 7, 1fr);
+}
+main {
+    background-color:rgba(11, 202, 232, 0.974);
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 1fr 1fr;
+}
+   footer {
+    background-color:rgb(230, 143, 3);
+    display:grid;
+    grid-template-columns: 2fr 3fr 100px;
+}
+
+article { 
+    border:dotted 2px darkblue;
+    margin: 1rem;
+}
+nav article{
+margin: 1px;    
+}
+
+#DERECHA {
+    grid-row: 1 / 3;
+}
+#ARRIBA {
+    grid-column: 2 / 4;
+    
+}

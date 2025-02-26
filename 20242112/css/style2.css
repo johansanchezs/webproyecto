@@ -1,0 +1,14 @@
+body{
+   display: flex; 
+   justify-content: center;
+   border: 2px red dotted;
+   flex-wrap: wrap;
+}
+header, nav, main, footer{
+    border: 2px green dotted;
+    width: 100%;
+    height: 100px;
+}
+header, nav{
+    height: 40px;
+}

@@ -1,0 +1,27 @@
+/*cascade style - hola de estilo en cascada*/
+header{
+    background-color: hwb(62 77% 11%);
+    height: 100px;
+    padding: 10px;
+    text-align: center;
+    
+}
+img{
+    width: 65px;
+    float: right;
+    border-radius: 35%;
+    
+}
+main {
+    height: 400px;
+    background-color: rgb(195, 226, 189);
+    padding: Drem;
+}
+footer{
+    background-color: rgb(160, 43, 82);
+    text-align: center;
+     padding: Dren;
+}
+h2{
+    border-bottom: dashed 2px rgb(212, 212, 212);
+}

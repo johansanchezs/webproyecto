@@ -1,0 +1,9 @@
+body {
+    display:grid;
+    grid-template-columns: 1fr 150px 1fr;
+}
+header, nav , main footer {height: 50px; width : 100%;}
+header {background-color: blue (255, 0, 0 , 0.304)}
+nav {background-color: bisque (0, 0, 255, 0.318);}
+main {background-color: azure(255, 255, 0, 0. 344);}
+footer {background-color:brown (0, 128, 0, 0.303);}
